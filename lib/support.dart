@@ -308,7 +308,6 @@ Widget qAndA() {
         height: 10,
       ),
 
-      //TODO: Add remaining text, style the font for size, style the font for color
     ],
   );
 }
@@ -605,7 +604,7 @@ Widget contactUs() {
               child: Image.asset('image/BAA.png',scale: 9,),
             ),
             onTap: (){
-              //TODO: Go to web page
+              launchURL('https://web.fbla-pbl.org/portal/');
             },
           )
       ),
@@ -627,7 +626,7 @@ Widget contactUs() {
               child: Image.asset('image/CSA.png',scale: 9,),
             ),
             onTap: (){
-              //TODO: Go to web page
+              launchURL('https://web.fbla-pbl.org/portal/');
             },
           )
       ),
@@ -646,7 +645,7 @@ Widget contactUs() {
               child: Image.asset('image/Inland.png',scale: 9,),
             ),
             onTap: (){
-              //TODO: Go to web page
+              launchURL('https://www.cafbla.org/domain/73');
             },
           )
       ),
@@ -665,7 +664,7 @@ Widget contactUs() {
               child: Image.asset('image/CAFBLA.png',scale: 9,),
             ),
             onTap: (){
-              //TODO: Go to web page
+              launchURL('https://www.cafbla.org');
             },
           )
       ),
@@ -684,22 +683,18 @@ Widget contactUs() {
               child: Image.asset('image/FBLAPBL.png',scale: 9,),
             ),
             onTap: (){
-              //TODO: Go to web page
+            launchURL('https://www.fbla-pbl.org/');
             },
           )
       ),
-
-
-      //name of link
       Center(
-        child: Text('FBLA-PBL Website',style: TextStyle(fontSize: 20, color: Colors.black,fontWeight: FontWeight.bold),),
-
-
+        child: Text('National FBLA Website',style: TextStyle(fontSize: 20, color: Colors.black,fontWeight: FontWeight.bold),),
       ),
-      Container(
-        padding: EdgeInsets.only(top: 50,left: 50,right: 50, bottom: 30),
 
-      )
+      Container(
+      padding: EdgeInsets.only(top: 50,left: 50,right: 50, bottom: 20),
+      ),
+
     ],
   );
 

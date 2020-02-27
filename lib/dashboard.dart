@@ -92,7 +92,6 @@ Widget dashboard(){
             child: Row(
               children: <Widget>[
 
-                //TODO: change width of Sized Box so Chapter Member is indented better
 
                 SizedBox(width: 49,),
 
@@ -127,7 +126,9 @@ Widget dashboard(){
                               borderRadius: new BorderRadius.circular(40.0),
                               child: Image.asset(i),
                             ),
-                            onTap: (){
+                            onTap: (
+
+                                ){
                             },
 
                           )

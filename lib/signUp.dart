@@ -4,11 +4,11 @@ import 'package:flutter/material.dart';
 
 import 'intro.dart';
 
-/*void main() {
-  runApp(new MaterialApp(
-    home: new signUp(),
-  ));
-}*/
+//void main() {
+//  runApp(new MaterialApp(
+//    home: new signUp(),
+//  ));
+//}
 
 class signUp extends StatelessWidget{
 
@@ -51,7 +51,7 @@ class signUp extends StatelessWidget{
           AspectRatio(
             aspectRatio: 1.75,
             child: Container(
-              child: Image.asset('image/mustangLogo.png'),
+              child: Image.asset('image/newmustanglogo.png'),
             ),
           ),
 
@@ -133,7 +133,7 @@ class signUp extends StatelessWidget{
                 decoration: BoxDecoration(
 
                   //TODO: Add gradient colors here
-                    gradient: LinearGradient(colors: [Color(0xff374ABE), Color(0xff64B6FF)],
+                    gradient: LinearGradient(colors: [Color.fromRGBO(29, 50, 81, 1), Color.fromRGBO(252, 66, 30, 1)],
                       begin: Alignment.centerLeft,
                       end: Alignment.centerRight,
                     ),
